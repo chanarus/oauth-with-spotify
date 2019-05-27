@@ -1,0 +1,9 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #28a745;
+  background-color: #28a745;
+}
+
+.custom-radio {
+  padding-right: 10px;
+  padding-bottom: 5px;
+}

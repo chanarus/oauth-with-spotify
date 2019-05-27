@@ -1,0 +1,68 @@
+.track {
+  padding-bottom: 15px;
+}
+.track-content {
+  position: relative;
+}
+
+.track:hover .track-info {
+  height: 100%;
+}
+
+.album-art img {
+  width: 100%;
+}
+
+.track-info {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.track .card {
+  border-radius: 0;
+  background-color: #cfd8dc;
+}
+
+.track:before,
+.track:after {
+  box-sizing: unset;
+}
+
+.track h5 {
+  margin-bottom: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: unset;
+}
+
+.track-info .card-text {
+  color: #ddd;
+  font-size: 14px;
+  line-height: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.track-info .card-text strong {
+  color: #4caf50;
+  padding-right: 5px;
+}
+
+.track-info .card-text strong .fas {
+  padding-right: 5px;
+}
+
+.track .card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
